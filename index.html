@@ -1,74 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction/Maintenance</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom right, #555, #a8fff8);
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-            flex-direction: column;
-        }
-        
-        .container {
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            width: 80%;
-            max-width: 600px;
-        }
-
-        h1 {
-            font-size: 36px;
-            color: #f39c12;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        .icon {
-            font-size: 50px;
-            color: #f39c12;
-            margin-bottom: 20px;
-        }
-
-        .footer {
-            margin-top: 30px;
-            font-size: 14px;
-            color: #999;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PathScan Technologies</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="icon">
-            🚧
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">PathScan</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Automating Diagnostics.<br>Enabling Every Lab.</h1>
+      <p>Delivering affordable digital pathology and automated slide scanning for the next generation of healthcare across India.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">Book a Demo</a>
+        <a href="#" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="mission-section">
+    <div class="content-wrapper">
+      <h2 class="section-title">Revolutionizing Healthcare Through Innovation</h2>
+      <div class="mission-content">
+        <div class="mission-text">
+          <h3>Our Mission</h3>
+          <p>
+            PathScan Technologies is a pioneering healthcare startup on a mission to democratize access to advanced digital pathology for labs of every size. By combining robust engineering with cost-effective automation, our innovative digital microscope platform transforms traditional slide analysis into an efficient, digital-first workflow.
+          </p>
+          <p>
+            Built with pathologist input and validated in local labs, our MVP offers whole-slide imaging, automated x-y stage control, and high clarity for accurate diagnostics. Whether in urban diagnostic centers or remote communities, PathScan empowers pathologists, caregivers, and patients with technology that bridges the accessibility gap.
+          </p>
         </div>
-        <h1>Stay Tuned, We Are Building Something Amazing!</h1>
-        <p>Our website is currently under construction/maintenance. We're working hard to bring you something awesome.</p>
-        <p>Feel free to check back later!</p>
+        <div class="mission-image">
+          <img src="lab-illustration.jpg" alt="Lab illustration">
+        </div>
+      </div>
+
+      <div class="bridge-gap">
+        <h3>Bridging the Gap</h3>
+        <p>
+          From urban diagnostic centers to remote communities, we're making advanced pathology accessible to everyone. Our technology ensures that location and budget never compromise the quality of diagnostic care.
+        </p>
+      </div>
     </div>
-    <div class="footer">
-        <p>&copy; 2025 PathScan Technologies | All rights reserved</p>
+  </section>
+
+  <!-- Why PathScan Stands Apart -->
+  <section class="why-section">
+    <h2 class="section-title">Why PathScan Technologies Stands Apart</h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <h3><span>01</span> Affordable for Small & Rural Labs</h3>
+        <p>Designed specifically for less-resourced settings, our solution breaks down financial barriers that have traditionally prevented smaller labs from accessing advanced digital pathology capabilities.</p>
+      </div>
+      <div class="why-card">
+        <h3><span>02</span> Pilot-Validated Technology</h3>
+        <p>Tested and refined with local pathology labs to solve real-world workflow challenges, ensuring our solution addresses actual needs rather than theoretical problems.</p>
+      </div>
+      <div class="why-card">
+        <h3><span>03</span> Plug-and-Play Implementation</h3>
+        <p>Simple installation with minimal staff training required, allowing labs to quickly operationalize and integrate our system within existing workflows.</p>
+      </div>
+      <div class="why-card">
+        <h3><span>04</span> Scalable Diagnostic Platform</h3>
+        <p>Ready for diagnostics in cytology, histopathology, and blood smear analysis, with future adaptability for expanding diagnostic capabilities.</p>
+      </div>
     </div>
+  </section>
+
+  <!-- User-Friendly Technology -->
+  <section class="user-tech">
+    <h2 class="section-title">User-Friendly Technology</h2>
+    <div class="user-tech-grid">
+      <div class="user-card">
+        <div class="icon">💻</div>
+        <h3>Affordable Hardware</h3>
+        <p>Specifically designed for small labs, our cost-effective solution makes advanced digital pathology accessible without compromising quality. We've engineered affordability into every component while maintaining professional-grade performance standards.</p>
+      </div>
+      <div class="user-card">
+        <div class="icon">⚙️</div>
+        <h3>Intuitive Workflow</h3>
+        <p>Our user-friendly interface requires minimal training, allowing lab technicians and pathologists to quickly adapt to digital workflows. The streamlined design reduces complexity while maintaining powerful functionality for comprehensive diagnostic capabilities.</p>
+      </div>
+    </div>
+    <p class="user-footer">
+      Our device enables remote consultations, rapid turnaround, and supports AI integration for future diagnostic applications, all at a price point accessible to small and medium-sized labs. This comprehensive approach ensures that advanced pathology capabilities are no longer limited to large, well-funded institutions.
+    </p>
+  </section>
+
+  <!-- Complete Digital Pathology Solution -->
+  <section class="digital-solution">
+    <h2 class="section-title">Complete Digital Pathology Solution</h2>
+    <div class="solution-grid">
+      <div class="solution-card">
+        <div class="icon">🧬</div>
+        <h3>Fully Automated Digital Slide Scanner</h3>
+        <p>State-of-the-art automation eliminates manual processes, reducing human error and increasing efficiency in slide analysis workflows.</p>
+      </div>
+      <div class="solution-card">
+        <div class="icon">🔬</div>
+        <h3>High-Resolution Imaging</h3>
+        <p>Multiple magnifications ensure crystal-clear imaging for accurate diagnostics across all pathology applications and specimen types.</p>
+      </div>
+      <div class="solution-card">
+        <div class="icon">🌐</div>
+        <h3>Telepathology-Ready</h3>
+        <p>Share and diagnose remotely with seamless connectivity, enabling expert consultations regardless of geographic barriers.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
 
